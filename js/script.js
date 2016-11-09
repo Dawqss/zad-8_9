@@ -1,8 +1,8 @@
 function rysujChoinke(n) {
-	for ( i = 0; i < n ; i++) {
+	for (var i = 0; i < n ; i++) {
 		var star = "";
 
-		for ( j = 0; j < n - i; j++) {
+		for (var j = 0; j < n - i; j++) {
 			star += " ";
 		}
 
@@ -15,7 +15,6 @@ function rysujChoinke(n) {
 }
 
 rysujChoinke(4);
-
 rysujChoinke(6);
-
 rysujChoinke(10);
+rysujChoinke(4.5);
